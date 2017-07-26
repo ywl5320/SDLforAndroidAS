@@ -1,0 +1,2 @@
+# SDLforAndroidAS
+SDL用Cmake编译到Android平台
