@@ -1025,7 +1025,7 @@ class SDLMain implements Runnable {
     @Override
     public void run() {
         // Runs SDL_main()
-        SDLActivity.nativeInit(SDLActivity.mSingleton.getArguments());
+        SDLActivity.nativeInit("");
 
         //Log.v("SDL", "SDL thread terminated");
     }
