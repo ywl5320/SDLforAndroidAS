@@ -45,7 +45,7 @@ add_library( SDL2
              IMPORTED)
 set_target_properties( SDL2
                        PROPERTIES IMPORTED_LOCATION
-                       ${CMAKE_SOURCE_DIR}/src/main/jni/armeabi/libSDL2.so)
+                       ${CMAKE_SOURCE_DIR}/src/main/jni/${ANDROID_ABI}/libSDL2.so)
 
 target_link_libraries( # Specifies the target library.
                        sdlmain
