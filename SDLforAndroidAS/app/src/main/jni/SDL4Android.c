@@ -80,7 +80,7 @@ int main(int argc, char *argv[])
 
 
 		/* Draw a gray background */
-		SDL_SetRenderDrawColor(renderer, 0xA0, 0xA0, 0xA0, 0xFF);
+		SDL_SetRenderDrawColor(renderer, 0x6D, 0xC7, 0xB2, 0xFF);
 		SDL_RenderClear(renderer);
 
 		draw(window, renderer, sprite);
